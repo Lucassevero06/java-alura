@@ -15,5 +15,8 @@ public class Main {
         String sinopse;
         sinopse = "Filme dos anos 90";
         System.out.println(sinopse);
+
+        int classificacao = (int) (media / 2); //informando ao compilador de que obrigatoriamente o valor da variavel classificacao precisa ser um int
+        System.out.println(classificacao);
     }
 }
